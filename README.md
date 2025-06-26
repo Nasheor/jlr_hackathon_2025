@@ -6,7 +6,7 @@
 ## 🚀 Quick Start
 ```bash
 # clone
-git clone https://github.com/your-org/jlr-cyber-scan.git
+git clone https://github.com/Nasheor/jlr_hackathon_2025.git
 cd jlr-hackathon_2025
 
 # create & activate virtual-env
