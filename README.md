@@ -1,1 +1,1 @@
-# jlr_hackathon_2025
+# JLR Hackathon 2025

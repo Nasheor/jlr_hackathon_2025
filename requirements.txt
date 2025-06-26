@@ -1,0 +1,31 @@
+datasets
+pydantic
+google-genai
+# ───────── core ML stack ─────────
+torch==2.2.2             # CPU build; if you have CUDA → install torch==2.2.2+cu121
+transformers==4.52.4
+peft==0.10.0
+safetensors==0.4.3
+
+# INT-8 inference & quantisation
+onnxruntime==1.18.0
+onnxruntime-tools==1.19.0   # optional, enables quantize_dynamic() on older ORT
+
+# Vector search
+faiss-cpu==1.7.4            # GPU build: faiss-gpu
+
+# Data & metrics
+datasets==2.18.0
+evaluate==0.4.1
+scikit-learn==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+tqdm==4.66.4
+peft
+safetensors
+
+# Dashboard (optional but nice for the demo)
+streamlit==1.33.0
+
+# Jupyter / notebook runtime (if you ship the .ipynb demos)
+ipykernel==6.29.4

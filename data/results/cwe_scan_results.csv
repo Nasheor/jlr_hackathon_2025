@@ -1,0 +1,14 @@
+file,nearest_cwe,is_vulnerable,vulnerable_code
+codebert_safe_test_file.c,,False,
+safe_0_CWE-119_1.c,,False,
+safe_0_CWE-119_2.c,,False,
+safe_0_CWE-122_1.c,,False,
+safe_0_CWE-122_2.c,,False,
+safe_0_CWE-129.c,129,True,
+vuln_1_CWE_119_1.c,119,True,"memcpy(buffer, input, len);  // ❌ No bounds check"
+vuln_1_CWE_119_2.c,119,True,"memcpy(buffer, input, len);  // ❌ No bounds check"
+vuln_1_CWE_122_1.c,122,True,"memcpy(buffer, input, len);  // ❌ No validation of length
+buffer[len] = '\0';         // ❌ Possible write out of bounds"
+vuln_1_CWE_122_2.c,122,True,"memcpy(buffer, input, len);  // ❌ No validation of length
+buffer[len] = '\0';         // ❌ Possible write out of bounds"
+vuln_1_CWE_129.c,129,True,"handlers[index](data, len); // ❌ Vulnerable: no bounds check on index"
