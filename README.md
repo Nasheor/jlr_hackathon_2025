@@ -7,7 +7,7 @@
 ```bash
 # clone
 git clone https://github.com/your-org/jlr-cyber-scan.git
-cd jlr-cyber-scan
+cd jlr-hackathon_2025
 
 # create & activate virtual-env
 python -m venv venv
